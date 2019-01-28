@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    padding: 57px 20px 5px 5px;
+    background: #525659;
+}
+
+hr {
+    border: 0.6px solid #525659;
+}
+.resume {
+    z-index: 1;
+    background: #fff;
+    width: 675px;
+    margin: 0 auto;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.6);
+    padding:40px 70px 60px 70px;
+    border-radius: 1px;
+    /* margin-bottom: 100px; */
+}
+
+.header {
+    /* padding-top: 40px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* repeatable */
+.heading {
+    margin-bottom: 5px;
+}
+.sub-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3px;
+}
+.date, .social, .more {
+    text-align: end;
+}
+
+.description {
+    text-align: left;
+}
+ p {
+    font-size: 15px;
+    padding-left: 20px;
+    line-height: 1.2em;
+}
+
+
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.skill-technologies {
+    text-align: left;
+}
+
+.activity {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* projects */
+.project {
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.space {
+    margin-bottom: 10px;
+}
+
+
+.projects >  .section-header {
+    /* margin-bottom: 5px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section-header h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
